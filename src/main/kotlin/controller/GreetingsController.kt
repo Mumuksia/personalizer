@@ -16,6 +16,6 @@ class GreetingController {
             Greetings(counter.incrementAndGet(), "Hello, $name")
 
     @RequestMapping(value = "/")
-    fun helloSpringBoot() = "Hello SpringBoot"
+    fun helloSpringBoot() = "Hello SpringBoot, so what next"
 
 }
