@@ -9,21 +9,21 @@ import service.memory.MemoryUserService
 import java.util.concurrent.atomic.AtomicLong
 
 @RestController
-class SchedulerController {
+class UserController {
 
     val persistenceService: PersistenceUserService = MemoryUserService()
 
     val counter = AtomicLong()
 
-    @GetMapping("/scheduler/get")
+    @GetMapping("/users/get")
     fun getUser(@RequestParam(value = "userId") userId: String) : User =
             persistenceService.getUser(userId.toLong())
 
-    @GetMapping("/scheduler/add")
+    @GetMapping("/users/add")
     fun addUser(@RequestParam(value = "name") name: String, @RequestParam(value = "email") email: String, @RequestParam(value = "lastName") lastName: String)  =
             persistenceService.updateUser(User(counter.incrementAndGet(), name, lastName, email))
 
-    @GetMapping("/scheduler/get/all")
+    @GetMapping("/users/get/all")
     fun getAll() : List<User>  =
             persistenceService.getUsers()
 
