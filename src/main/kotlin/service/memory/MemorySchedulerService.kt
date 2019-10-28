@@ -21,7 +21,7 @@ class MemorySchedulerService : PersistenceSchedulerService {
     }
 
     override fun getAllSchedulers(): List<Scheduler> {
-        println("getting all schedulers")
+        //println("getting all schedulers")
         return schedulers.values.toList()
     }
 }

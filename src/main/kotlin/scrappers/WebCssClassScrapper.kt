@@ -34,4 +34,18 @@ class WebCssClassScrapper {
             }
         }
     }
+
+    fun parseSiteByTable(table: String, url: String): List<String> {
+        var site = url
+        if (!url.startsWith("http")) //add https
+            site = "http://$url"
+        Jsoup.connect(site).get().run {
+            //2. Parses and scrapes the HTML response
+            return select("table[id*=" + table + "]").filter { element ->
+                element.hasText()
+            }.map { element ->
+                element.text()
+            }
+        }
+    }
 }

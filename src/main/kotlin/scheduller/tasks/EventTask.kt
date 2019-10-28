@@ -11,7 +11,7 @@ class EventTask {
 
     @Scheduled(fixedRate = 60000)
     fun checkEventsToExecute(){
-        println("checking for available events")
+        //println("checking for available events")
         val events = checkSchedulerEventsService.getAllEventsToExecute()
         events.forEach { event -> println(event.description) }
     }
