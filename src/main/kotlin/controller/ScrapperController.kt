@@ -19,4 +19,14 @@ class ScrapperController{
     fun getTextById(@RequestParam(value = "id") id: String,
                           @RequestParam(value = "siteUrl") siteUrl: String) : String =
             webScrapper.getScrappedSiteById(id, siteUrl)
+
+    @GetMapping("/scrapper/get/table")
+    fun getTextByTableId(@RequestParam(value = "tableId") tableId: String,
+                         @RequestParam(value = "siteUrl") siteUrl: String) : String =
+            webScrapper.getScrappedSiteByTableId(tableId, siteUrl)
+
+    @GetMapping("/scrapper/get/tdRow")
+    fun getTextByTdId(@RequestParam(value = "tdRow") tdRow: String,
+                    @RequestParam(value = "siteUrl") siteUrl: String) : String =
+            webScrapper.getScrappedSiteByTDId(tdRow, siteUrl)
 }

@@ -16,4 +16,12 @@ class WebScrapperService {
     fun getScrappedSiteById(url: String, id: String) : String {
         return textService.convertListToText(scrapper.parseSiteByDivId(url, id))
     }
+
+    fun getScrappedSiteByTableId(url: String, id: String) : String {
+        return textService.convertListToText(scrapper.parseSiteByTable(url, id))
+    }
+
+    fun getScrappedSiteByTDId(url: String, id: String) : String {
+        return textService.convertListToText(scrapper.parseSiteByTableRow(url, id))
+    }
 }
