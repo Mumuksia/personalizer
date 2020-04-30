@@ -6,7 +6,8 @@ import org.springframework.scheduling.annotation.EnableScheduling
 @SpringBootApplication
 //@EnableAutoConfiguration
 @EnableScheduling
-@ComponentScan(basePackages = (arrayOf("controller", "scheduller", "tasks", "sender", "service", "scrappers")))
+@ComponentScan(basePackages = (arrayOf("controller", "scheduller", "tasks", "sender", "service",
+        "scrappers", "rozha", "rozha.controller", "rozha.service")))
 class Application
 
 fun main(args: Array<String>) {

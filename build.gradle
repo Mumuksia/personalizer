@@ -25,6 +25,7 @@ apply plugin: 'docker'
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 jar{
@@ -67,6 +68,7 @@ dependencies {
     compile group: 'org.apache.poi', name: 'poi', version: '4.1.0'
     compile 'org.apache.poi:poi-scratchpad:3.9'
     compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.0'
+    compile group: 'com.beust', name: 'klaxon', version: '5.0.12'
 
     compile 'org.jsoup:jsoup:1.12.1'
     compile group: 'javax.mail', name: 'mail', version: '1.4.7'
@@ -75,6 +77,8 @@ dependencies {
     testCompile 'org.jetbrains.spek:spek-api:1.1.5'
     testCompile 'org.junit.platform:junit-platform-runner:1.0.0'
     testRuntime 'org.jetbrains.spek:spek-junit-platform-engine:1.1.5'
+
+
 }
 
 
