@@ -35,7 +35,13 @@ class ClashAPIController {
 
     @CrossOrigin()
     @GetMapping("/clan/league")
-    fun getClanLeague(@RequestParam(value = "clanId") clanId: String) : String =
+    fun getClanLeagueGroup(@RequestParam(value = "clanId") clanId: String) : String =
             clashApiService.getClanLeagueTemp(clanId)
+
+    @CrossOrigin()
+    @GetMapping("/clan/league/war")
+    fun getClanLeagueWar(@RequestParam(value = "warTag") warTag: String) : String =
+            clashApiService.getClanLeagueWar(warTag)
+
 
 }

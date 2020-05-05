@@ -1,0 +1,472 @@
+{
+  "state": "inWar",
+  "teamSize": 15,
+  "preparationStartTime": "20200502T223052.000Z",
+  "startTime": "20200503T223049.000Z",
+  "endTime": "20200504T223049.000Z",
+  "clan": {
+    "tag": "#98VJY2UV",
+    "name": "Chat N Farm",
+    "badgeUrls": {
+      "small": "https://api-assets.clashofclans.com/badges/70/IcZM8UoxZ5hU8YH5RRRr2NVxrtkYJq-wwsjlosPogmA.png",
+      "large": "https://api-assets.clashofclans.com/badges/512/IcZM8UoxZ5hU8YH5RRRr2NVxrtkYJq-wwsjlosPogmA.png",
+      "medium": "https://api-assets.clashofclans.com/badges/200/IcZM8UoxZ5hU8YH5RRRr2NVxrtkYJq-wwsjlosPogmA.png"
+    },
+    "clanLevel": 12,
+    "attacks": 6,
+    "stars": 14,
+    "destructionPercentage": 33.46666666666667,
+    "members": [
+      {
+        "tag": "#CQQ2QGQJ",
+        "name": "popy",
+        "townhallLevel": 13,
+        "mapPosition": 6,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#ULLCJYJP",
+        "name": "モグモグ",
+        "townhallLevel": 11,
+        "mapPosition": 12,
+        "attacks": [
+          {
+            "attackerTag": "#ULLCJYJP",
+            "defenderTag": "#Q0YCR8GR",
+            "stars": 2,
+            "destructionPercentage": 53,
+            "order": 3
+          }
+        ],
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#8YJG20JYL",
+        "name": "玉ねぎ",
+        "townhallLevel": 11,
+        "mapPosition": 17,
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#GCQY8QPY",
+          "defenderTag": "#8YJG20JYL",
+          "stars": 2,
+          "destructionPercentage": 61,
+          "order": 8
+        }
+      },
+      {
+        "tag": "#PV92YC2P",
+        "name": "レミリア&コノハ",
+        "townhallLevel": 11,
+        "mapPosition": 13,
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#2L99UYRQ9",
+          "defenderTag": "#PV92YC2P",
+          "stars": 2,
+          "destructionPercentage": 60,
+          "order": 6
+        }
+      },
+      {
+        "tag": "#R2JCUP8J",
+        "name": "ライス",
+        "townhallLevel": 12,
+        "mapPosition": 10,
+        "attacks": [
+          {
+            "attackerTag": "#R2JCUP8J",
+            "defenderTag": "#2LCR0UCG2",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 13
+          }
+        ],
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#LRLVRCJV0",
+          "defenderTag": "#R2JCUP8J",
+          "stars": 1,
+          "destructionPercentage": 56,
+          "order": 4
+        }
+      },
+      {
+        "tag": "#GV9R90QV",
+        "name": "たこたこ",
+        "townhallLevel": 13,
+        "mapPosition": 4,
+        "attacks": [
+          {
+            "attackerTag": "#GV9R90QV",
+            "defenderTag": "#YYQG9PGG",
+            "stars": 2,
+            "destructionPercentage": 77,
+            "order": 1
+          }
+        ],
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#JJV0C8V2",
+        "name": "no-hayashi",
+        "townhallLevel": 12,
+        "mapPosition": 7,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#9R2G8Q88",
+        "name": "たい",
+        "townhallLevel": 13,
+        "mapPosition": 8,
+        "attacks": [
+          {
+            "attackerTag": "#9R2G8Q88",
+            "defenderTag": "#LRLVRCJV0",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 12
+          }
+        ],
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#CRY0LRQ",
+        "name": "Helloween",
+        "townhallLevel": 12,
+        "mapPosition": 11,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#2PL0L9LQV",
+        "name": "あっとん",
+        "townhallLevel": 12,
+        "mapPosition": 9,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#G0VL0RQJ",
+        "name": "pigmon",
+        "townhallLevel": 13,
+        "mapPosition": 2,
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#LJRRC0YU",
+          "defenderTag": "#G0VL0RQJ",
+          "stars": 2,
+          "destructionPercentage": 72,
+          "order": 5
+        }
+      },
+      {
+        "tag": "#8GC998JG",
+        "name": "ゼスト",
+        "townhallLevel": 13,
+        "mapPosition": 5,
+        "attacks": [
+          {
+            "attackerTag": "#8GC998JG",
+            "defenderTag": "#YJQQV2QY",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 9
+          }
+        ],
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#208C0ULU0",
+          "defenderTag": "#8GC998JG",
+          "stars": 1,
+          "destructionPercentage": 78,
+          "order": 10
+        }
+      },
+      {
+        "tag": "#8QQVL02Q",
+        "name": "Mick",
+        "townhallLevel": 11,
+        "mapPosition": 14,
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#28J8G888",
+          "defenderTag": "#8QQVL02Q",
+          "stars": 2,
+          "destructionPercentage": 87,
+          "order": 7
+        }
+      },
+      {
+        "tag": "#G0JYRQPR",
+        "name": "セラ",
+        "townhallLevel": 13,
+        "mapPosition": 3,
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#JRVGVGRR",
+          "defenderTag": "#G0JYRQPR",
+          "stars": 1,
+          "destructionPercentage": 50,
+          "order": 11
+        }
+      },
+      {
+        "tag": "#9UY2299C",
+        "name": "わたるちゃん",
+        "townhallLevel": 13,
+        "mapPosition": 1,
+        "attacks": [
+          {
+            "attackerTag": "#9UY2299C",
+            "defenderTag": "#2U8UG0L2P",
+            "stars": 1,
+            "destructionPercentage": 72,
+            "order": 2
+          }
+        ],
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#R2CGJ9VQ",
+          "defenderTag": "#9UY2299C",
+          "stars": 1,
+          "destructionPercentage": 70,
+          "order": 14
+        }
+      }
+    ]
+  },
+  "opponent": {
+    "tag": "#222GYGQ02",
+    "name": "Apocalypse",
+    "badgeUrls": {
+      "small": "https://api-assets.clashofclans.com/badges/70/ndN4kbnDZQmjAnh0HIWyNZkUXeW56RFYigf-28h39Co.png",
+      "large": "https://api-assets.clashofclans.com/badges/512/ndN4kbnDZQmjAnh0HIWyNZkUXeW56RFYigf-28h39Co.png",
+      "medium": "https://api-assets.clashofclans.com/badges/200/ndN4kbnDZQmjAnh0HIWyNZkUXeW56RFYigf-28h39Co.png"
+    },
+    "clanLevel": 11,
+    "attacks": 8,
+    "stars": 12,
+    "destructionPercentage": 35.6,
+    "members": [
+      {
+        "tag": "#208C0ULU0",
+        "name": "Phantomtwo50363",
+        "townhallLevel": 13,
+        "mapPosition": 5,
+        "attacks": [
+          {
+            "attackerTag": "#208C0ULU0",
+            "defenderTag": "#8GC998JG",
+            "stars": 1,
+            "destructionPercentage": 78,
+            "order": 10
+          }
+        ],
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#2L99UYRQ9",
+        "name": "atoms in space",
+        "townhallLevel": 11,
+        "mapPosition": 17,
+        "attacks": [
+          {
+            "attackerTag": "#2L99UYRQ9",
+            "defenderTag": "#PV92YC2P",
+            "stars": 2,
+            "destructionPercentage": 60,
+            "order": 6
+          }
+        ],
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#Q0YCR8GR",
+        "name": "NATIVE",
+        "townhallLevel": 11,
+        "mapPosition": 8,
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#ULLCJYJP",
+          "defenderTag": "#Q0YCR8GR",
+          "stars": 2,
+          "destructionPercentage": 53,
+          "order": 3
+        }
+      },
+      {
+        "tag": "#R9CPJJ2Y",
+        "name": "Jimmy5191",
+        "townhallLevel": 11,
+        "mapPosition": 16,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#YYQG9PGG",
+        "name": "Requizit",
+        "townhallLevel": 13,
+        "mapPosition": 4,
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#GV9R90QV",
+          "defenderTag": "#YYQG9PGG",
+          "stars": 2,
+          "destructionPercentage": 77,
+          "order": 1
+        }
+      },
+      {
+        "tag": "#YJQQV2QY",
+        "name": "jv3511123",
+        "townhallLevel": 11,
+        "mapPosition": 11,
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#8GC998JG",
+          "defenderTag": "#YJQQV2QY",
+          "stars": 3,
+          "destructionPercentage": 100,
+          "order": 9
+        }
+      },
+      {
+        "tag": "#R2CGJ9VQ",
+        "name": "Mexican_Jesus",
+        "townhallLevel": 13,
+        "mapPosition": 1,
+        "attacks": [
+          {
+            "attackerTag": "#R2CGJ9VQ",
+            "defenderTag": "#9UY2299C",
+            "stars": 1,
+            "destructionPercentage": 70,
+            "order": 14
+          }
+        ],
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#2LCR0UCG2",
+        "name": "bulldozer",
+        "townhallLevel": 11,
+        "mapPosition": 14,
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#R2JCUP8J",
+          "defenderTag": "#2LCR0UCG2",
+          "stars": 3,
+          "destructionPercentage": 100,
+          "order": 13
+        }
+      },
+      {
+        "tag": "#JRVGVGRR",
+        "name": "yosi",
+        "townhallLevel": 13,
+        "mapPosition": 3,
+        "attacks": [
+          {
+            "attackerTag": "#JRVGVGRR",
+            "defenderTag": "#G0JYRQPR",
+            "stars": 1,
+            "destructionPercentage": 50,
+            "order": 11
+          }
+        ],
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#LJRRC0YU",
+        "name": "Gangster Nation",
+        "townhallLevel": 13,
+        "mapPosition": 2,
+        "attacks": [
+          {
+            "attackerTag": "#LJRRC0YU",
+            "defenderTag": "#G0VL0RQJ",
+            "stars": 2,
+            "destructionPercentage": 72,
+            "order": 5
+          }
+        ],
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#2U8UG0L2P",
+        "name": "okeedokee",
+        "townhallLevel": 12,
+        "mapPosition": 6,
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#9UY2299C",
+          "defenderTag": "#2U8UG0L2P",
+          "stars": 1,
+          "destructionPercentage": 72,
+          "order": 2
+        }
+      },
+      {
+        "tag": "#LRLVRCJV0",
+        "name": "clay",
+        "townhallLevel": 11,
+        "mapPosition": 12,
+        "attacks": [
+          {
+            "attackerTag": "#LRLVRCJV0",
+            "defenderTag": "#R2JCUP8J",
+            "stars": 1,
+            "destructionPercentage": 56,
+            "order": 4
+          }
+        ],
+        "opponentAttacks": 1,
+        "bestOpponentAttack": {
+          "attackerTag": "#9R2G8Q88",
+          "defenderTag": "#LRLVRCJV0",
+          "stars": 3,
+          "destructionPercentage": 100,
+          "order": 12
+        }
+      },
+      {
+        "tag": "#GCQY8QPY",
+        "name": "BeastMode",
+        "townhallLevel": 10,
+        "mapPosition": 24,
+        "attacks": [
+          {
+            "attackerTag": "#GCQY8QPY",
+            "defenderTag": "#8YJG20JYL",
+            "stars": 2,
+            "destructionPercentage": 61,
+            "order": 8
+          }
+        ],
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#8UPU0RU2C",
+        "name": "Alex 2.0",
+        "townhallLevel": 11,
+        "mapPosition": 7,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#28J8G888",
+        "name": "GriffinWing",
+        "townhallLevel": 10,
+        "mapPosition": 19,
+        "attacks": [
+          {
+            "attackerTag": "#28J8G888",
+            "defenderTag": "#8QQVL02Q",
+            "stars": 2,
+            "destructionPercentage": 87,
+            "order": 7
+          }
+        ],
+        "opponentAttacks": 0
+      }
+    ]
+  },
+  "warStartTime": "20200503T223049.000Z"
+}

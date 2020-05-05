@@ -12,6 +12,7 @@ import rozha.model.clanwar.Clan
 import rozha.model.clanwar.ClanWar
 import rozha.model.clanwar.ClanWarMember
 import rozha.model.clanwar.War
+import rozha.model.league.LeagueGroup
 import java.io.StringReader
 
 @Component
@@ -101,6 +102,18 @@ class ClashAPIConverter {
             }
         } }
         return result
+    }
+
+    fun convertLeagueGroup(clanInfo: String): String {
+        val klaxon = Klaxon()
+
+        val result = klaxon.parse<LeagueGroup>(clanInfo)?.let { cm -> klaxon.toJsonString(cm) }
+
+        return klaxon.toJsonString(result.orEmpty())
+    }
+
+    fun convertLeagueWar(clanInfo: String): String {
+        return convertClanWar(clanInfo)
     }
 
 }
