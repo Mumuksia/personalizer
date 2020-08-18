@@ -6,6 +6,7 @@ buildscript {
     ext.spring_boot_version = '2.1.0.RELEASE'
 
     repositories {
+        gradlePluginPortal()
         jcenter()
         maven {
             url "https://plugins.gradle.org/m2/"
@@ -18,6 +19,7 @@ buildscript {
         classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0'
         classpath('se.transmode.gradle:gradle-docker:1.2')
         classpath("gradle.plugin.com.google.cloud.tools:jib-gradle-plugin:2.4.0")
+        classpath 'nu.studer:gradle-credentials-plugin:2.1'
     }
 }
 
@@ -27,6 +29,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'docker'
 apply plugin: "com.google.cloud.tools.jib"
+apply plugin: 'nu.studer.credentials'
 
 repositories {
     mavenCentral()
@@ -36,12 +39,6 @@ repositories {
 jar{
     baseName = 'personalizer'
     version = '0.0.1'
-}
-
-jib {
-    to {
-        image = "mumuksia/personalizer"
-    }
 }
 
 task buildDocker(type: Docker, dependsOn: build) {
@@ -83,12 +80,16 @@ dependencies {
 
 
 }
-
-/*
-compileKotlin {
-    kotlinOptions.jvmTarget = "14"
+jib {
+    from {
+        image 'adoptopenjdk/openjdk14:slim'
+    }
+    to {
+        auth {
+            image = 'registry.hub.docker.com/mumuksia/personalizer:latest'
+            username = 'mumuksia'
+            password = credentials.pwddocker
+        }
+        tags = ['latest']
+    }
 }
-compileTestKotlin {
-    kotlinOptions.jvmTarget = "14"
-}
-*/
