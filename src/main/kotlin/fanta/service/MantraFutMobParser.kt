@@ -1,9 +1,11 @@
 package fanta.service
 
-import com.beust.klaxon.*
+import com.beust.klaxon.JsonObject
+import com.beust.klaxon.JsonReader
+import com.beust.klaxon.Klaxon
+import com.beust.klaxon.Parser
 import fanta.model.MatchLink
 import fanta.model.PLRounds
-import fanta.model.Round
 import org.springframework.stereotype.Component
 import java.io.StringReader
 
@@ -32,7 +34,7 @@ class MantraFutMobParser {
     }
 
     fun convertMatchPLRounds(plRounds: String): List<PLRounds> {
-        var result = arrayListOf<PLRounds>()
+        val result = arrayListOf<PLRounds>()
         val klaxon = Klaxon()
 
         val parser: Parser = Parser.default()
@@ -53,7 +55,7 @@ class MantraFutMobParser {
     }
 
     fun convertMatchLinksForRound(plRounds: String): List<MatchLink> {
-        var result = arrayListOf<MatchLink>()
+        val result = arrayListOf<MatchLink>()
         val klaxon = Klaxon()
 
         val parser: Parser = Parser.default()

@@ -36,6 +36,30 @@ class FantaMatchCenterParser {
         }
     }
 
+    fun parseMatchFactsByURL(url: String, home: String, away: String): MatchStats {
+        var site = url
+        val topTeam = ("$home vs $away").toLowerCase().replace(" ", "-")
+        if (!url.startsWith("https")) //add https
+            site = "https://$url/$topTeam"
+
+        Jsoup.connect(site).get().run {
+            //div id match-centre -> div class player
+            return parseMatchFacts(select("div." + "css-4iek54-itemView-itemLayout-eventItemWrapper"))
+        }
+    }
+
+    fun parseMatchByURL(url: String, home: String, away: String): List<PlayerStat> {
+        var site = url
+        val topTeam = ("$home vs $away").toLowerCase().replace(" ", "-")
+        if (!url.startsWith("https")) //add https
+            site = "https://$url/$topTeam"
+
+        Jsoup.connect(site).get().run {
+            return parseMatchElements(select("button." + "css-lw53vx-PlayerContainer-applyHover-layout")
+            )
+        }
+    }
+
     fun parsePLRounds(): String {
         val klaxon = Klaxon()
 
@@ -78,7 +102,7 @@ class FantaMatchCenterParser {
 
     fun parseMatchEvent(e: Element): MatchEvent {
         val players = e.select("div[class~=playersLayoutWrapper]").select("a[class~=eventPlayerName]")
-        val time = e.select("span[class~=timeLayout]").select("span[class~=eventTime]").text()
+        val time = e.select("span[class~=timeLayout]").select("span[class~=eventTime]").text().dropLast(1)
 
 
         if (players.size == 1){
@@ -88,7 +112,7 @@ class FantaMatchCenterParser {
 
             if (e.select("div[class~=playersLayoutWrapper]").select("a[class~=assist]").size == 1)
                 return MatchEvent("goal", time, players.text(),
-                        e.select("div[class~=playersLayoutWrapper]").select("a[class~=assist]").text().removePrefix("assist by"))
+                        e.select("div[class~=playersLayoutWrapper]").select("a[class~=assist]").text().removePrefix("assist by "))
             return MatchEvent("goal", time, players.text(), "")
         }
 

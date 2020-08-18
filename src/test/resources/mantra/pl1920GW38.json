@@ -1,0 +1,154 @@
+{
+  "matches": [
+    {
+      "date": "2020-05-17",
+      "team1": {
+        "key": "arsenal",
+        "name": "Arsenal FC",
+        "code": "ARS"
+      },
+      "team2": {
+        "key": "watford",
+        "name": "Watford FC",
+        "code": "WAT"
+      },
+      "score1": null,
+      "score2": null
+    },
+    {
+      "date": "2020-05-17",
+      "team1": {
+        "key": "chelsea",
+        "name": "Chelsea FC",
+        "code": "CHE"
+      },
+      "team2": {
+        "key": "wolves",
+        "name": "Wolverhampton Wanderers FC",
+        "code": "WOL"
+      },
+      "score1": null,
+      "score2": null
+    },
+    {
+      "date": "2020-05-17",
+      "team1": {
+        "key": "crystalpalace",
+        "name": "Crystal Palace FC",
+        "code": "CRY"
+      },
+      "team2": {
+        "key": "tottenham",
+        "name": "Tottenham Hotspur FC",
+        "code": "TOT"
+      },
+      "score1": null,
+      "score2": null
+    },
+    {
+      "date": "2020-05-17",
+      "team1": {
+        "key": "everton",
+        "name": "Everton FC",
+        "code": "EVE"
+      },
+      "team2": {
+        "key": "bournemouth",
+        "name": "AFC Bournemouth",
+        "code": "BOU"
+      },
+      "score1": null,
+      "score2": null
+    },
+    {
+      "date": "2020-05-17",
+      "team1": {
+        "key": "leicester",
+        "name": "Leicester City FC",
+        "code": "LEI"
+      },
+      "team2": {
+        "key": "manutd",
+        "name": "Manchester United FC",
+        "code": "MUN"
+      },
+      "score1": null,
+      "score2": null
+    },
+    {
+      "date": "2020-05-17",
+      "team1": {
+        "key": "newcastle",
+        "name": "Newcastle United FC",
+        "code": "NEW"
+      },
+      "team2": {
+        "key": "liverpool",
+        "name": "Liverpool FC",
+        "code": "LIV"
+      },
+      "score1": null,
+      "score2": null
+    },
+    {
+      "date": "2020-05-17",
+      "team1": {
+        "key": "southampton",
+        "name": "Southampton FC",
+        "code": "SOU"
+      },
+      "team2": {
+        "key": "sheffieldunitedfc",
+        "name": "Sheffield United FC",
+        "code": "SHU"
+      },
+      "score1": null,
+      "score2": null
+    },
+    {
+      "date": "2020-05-17",
+      "team1": {
+        "key": "westham",
+        "name": "West Ham United FC",
+        "code": "WHU"
+      },
+      "team2": {
+        "key": "astonvilla",
+        "name": "Aston Villa FC",
+        "code": "AVL"
+      },
+      "score1": null,
+      "score2": null
+    },
+    {
+      "date": "2020-05-17",
+      "team1": {
+        "key": "mancity",
+        "name": "Manchester City FC",
+        "code": "MCI"
+      },
+      "team2": {
+        "key": "norwich",
+        "name": "Norwich City FC",
+        "code": "NOR"
+      },
+      "score1": null,
+      "score2": null
+    },
+    {
+      "date": "2020-05-17",
+      "team1": {
+        "key": "burnley",
+        "name": "Burnley FC",
+        "code": "BUR"
+      },
+      "team2": {
+        "key": "brightonhovealbionfc",
+        "name": "Brighton & Hove Albion FC",
+        "code": "BHA"
+      },
+      "score1": null,
+      "score2": null
+    }
+  ]
+}

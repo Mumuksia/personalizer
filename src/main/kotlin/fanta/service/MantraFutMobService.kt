@@ -1,80 +1,54 @@
 package fanta.service
 
-import com.beust.klaxon.Klaxon
-import fanta.model.*
+import fanta.model.MatchFact
+import fanta.model.PlayerStat
 import fanta.ugly.Matches
+import klaxon.KlaxonService
 import org.springframework.stereotype.Component
 import java.io.File
-import java.nio.file.Paths
 
 @Component
 class MantraFutMobService {
 
     val mantraParser = MantraFutMobParser()
     val matchCenterParser = FantaMatchCenterParser()
+    val klaxonService = KlaxonService()
 
     fun getRankingForRound(round: Int): String {
         val result = arrayListOf<PlayerStat>()
-        val klaxon = Klaxon()
-
 
         val roundContent = getJsonStringForRound(round)
         val matches = mantraParser.convertMatchLinksForRound(roundContent)
 
-        matches.forEach { result.addAll(matchCenterParser.parseMatchByURL("www.fotmob.com" + it.pageUrl + "/lineup")) }
+        matches.forEach { result.addAll(matchCenterParser.parseMatchByURL("www.fotmob.com" + it.pageUrl + "/lineup", it.home, it.away)) }
 
-        return klaxon.toJsonString(result)
+        return klaxonService.toJsonString(result)
     }
 
 
     fun getMatchFactsForRound(round: Int): String {
         val result = arrayListOf<MatchFact>()
-        val klaxon = Klaxon()
-
 
         val roundContent = getJsonStringForRound(round)
         val matches = mantraParser.convertMatchLinksForRound(roundContent)
 
-        matches.forEach { result.add(MatchFact(it.home, it.away, matchCenterParser.parseMatchFactsByURL("www.fotmob.com" + it.pageUrl + "/matchfacts"))) }
+        matches.forEach {
+            result.add(MatchFact(it.home, it.away,
+                    matchCenterParser.parseMatchFactsByURL("www.fotmob.com" + it.pageUrl + "/matchfacts", it.home, it.away)))
+        }
 
 
-        return klaxon.toJsonString(result)
+        return klaxonService.toJsonString(result)
     }
 
-    fun createAll(): String {
-        for (i in 1..38)
-            getDataForRound(i)
+    fun createAllRankings(): String {
+        for (i in 1..38) {
+            println("getting data for round $i")
+            File("rank$i.json").writeText(getRankingForRound(i))
+            Thread.sleep(5000)
+        }
+
         return ""
-    }
-
-    fun getDataForRound(round: Int): String {
-        val klaxon = Klaxon()
-
-        val fileName = "/src/main/resources/mantra/pl1920GW$round.json"
-
-        val roundContent = File(Paths.get("").toAbsolutePath().toString() +
-                fileName).readText()
-
-
-        val matchLinksContent = File(Paths.get("").toAbsolutePath().toString() +
-                "/src/main/resources/mantra/pl1920.json").readText()
-
-        val matchLinks = mantraParser.convertMatchLinks(matchLinksContent)
-        val roundMatches = mantraParser.convertMatchPLRounds(roundContent)
-
-        val result = filterMatchLinks(roundMatches, matchLinks)
-
-        File("pl$round.json").writeText(klaxon.toJsonString(Round(result)))
-        return ""
-    }
-
-    fun filterMatchLinks(matchRounds: List<PLRounds>, matchLinks: List<MatchLink>): List<MatchLink> {
-        return matchLinks.filter { matchEq(it, matchRounds) }
-    }
-
-    fun matchEq(ml: MatchLink, matchRounds: List<PLRounds>): Boolean {
-        matchRounds.forEach { if (it.home.contains(ml.home) && it.away.contains(ml.away)) return true }
-        return false
     }
 
     fun getJsonStringForRound(round: Int): String {

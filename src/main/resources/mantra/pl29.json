@@ -1,0 +1,54 @@
+{
+  "matches": [
+    {
+      "away": "AFC Bournemouth",
+      "home": "Liverpool",
+      "pageUrl": "/livescores/3056023"
+    },
+    {
+      "away": "West Ham United",
+      "home": "Arsenal",
+      "pageUrl": "/livescores/3056018"
+    },
+    {
+      "away": "Watford",
+      "home": "Crystal Palace",
+      "pageUrl": "/livescores/3056021"
+    },
+    {
+      "away": "Norwich City",
+      "home": "Sheffield United",
+      "pageUrl": "/livescores/3056025"
+    },
+    {
+      "away": "Newcastle United",
+      "home": "Southampton",
+      "pageUrl": "/livescores/3056026"
+    },
+    {
+      "away": "Brighton & Hove Albion",
+      "home": "Wolverhampton Wanderers",
+      "pageUrl": "/livescores/3056027"
+    },
+    {
+      "away": "Tottenham Hotspur",
+      "home": "Burnley",
+      "pageUrl": "/livescores/3056019"
+    },
+    {
+      "away": "Everton",
+      "home": "Chelsea",
+      "pageUrl": "/livescores/3056020"
+    },
+    {
+      "away": "Manchester City",
+      "home": "Manchester United",
+      "pageUrl": "/livescores/3056024"
+    },
+    {
+      "away": "Aston Villa",
+      "home": "Leicester City",
+      "pageUrl": "/livescores/3056022"
+    }
+  ]
+}
