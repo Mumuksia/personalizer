@@ -22,5 +22,8 @@ jobs:
         with:
           java-version: 14
 
+      - name: docker login
+        run: docker login -u mumuksia -p ${{ secrets.DOCKER_HUB_PWD }}
+
       - name: Build with Gradle
         run: ./gradlew -Pdev clean jib -x test

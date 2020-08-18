@@ -87,8 +87,6 @@ jib {
     to {
         auth {
             image = 'registry.hub.docker.com/mumuksia/personalizer:latest'
-            username = 'mumuksia'
-            password = credentials.pwddocker
         }
         tags = ['latest']
     }
