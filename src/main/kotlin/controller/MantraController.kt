@@ -2,9 +2,7 @@ package controller
 
 import fanta.model.MatchStats
 import fanta.model.PlayerStat
-import fanta.service.FantaMatchCenterParser
-import fanta.service.MantraFutMobService
-import fanta.service.RanksService
+import fanta.service.*
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
@@ -15,6 +13,8 @@ class MantraController {
     val fantaScrapper: FantaMatchCenterParser = FantaMatchCenterParser()
     val mantraFutMob = MantraFutMobService()
     val ranksService = RanksService()
+    val fotMobMatches = FotMobMatches()
+    val mantraFutMobServiceCurrent = MantraFutMobServiceCurrent()
 
     @GetMapping("/scrapper/mantra/matchplayer")
     fun getMatchPlayersInfo(): List<PlayerStat> =
@@ -24,7 +24,7 @@ class MantraController {
     fun getMatchInfo(): MatchStats =
             fantaScrapper.parseMatchFactsByURL("www.fotmob.com/livescores/3056079/matchfacts")
 
-    @GetMapping("/scrapper/mantra/rounds")
+    @GetMapping("/scrapper/mantra/2019/rounds")
     fun getPLRounds(@RequestParam(value = "round") round: Int): String =
             mantraFutMob.getRankingForRound(round)
 
@@ -40,7 +40,19 @@ class MantraController {
     fun getTotalRanking(): String =
             ranksService.getTotalRanking()
 
+    @GetMapping("/scrapper/mantra/2019/rounds/facts")
+    fun getMatchFactsRounds2019(@RequestParam(value = "round") round: Int): String =
+            mantraFutMob.getMatchFactsForRound(round)
+
     @GetMapping("/scrapper/mantra/rounds/facts")
     fun getMatchFactsRounds(@RequestParam(value = "round") round: Int): String =
-            mantraFutMob.getMatchFactsForRound(round)
+            mantraFutMobServiceCurrent.getMatchFactsForRound(round)
+
+    @GetMapping("/scrapper/mantra/rounds")
+    fun getRanksForRounds(@RequestParam(value = "round") round: Int): String =
+            mantraFutMobServiceCurrent.getRankingForRound(round)
+
+    @GetMapping("/scrapper/mantra/pl2021/links")
+    fun getMatchLinks(): String =
+            fotMobMatches.parsePLRounds()
 }

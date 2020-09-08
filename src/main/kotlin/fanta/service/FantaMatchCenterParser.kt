@@ -1,6 +1,5 @@
 package fanta.service
 
-import com.beust.klaxon.Klaxon
 import fanta.model.MatchEvent
 import fanta.model.MatchLink
 import fanta.model.MatchStats
@@ -60,20 +59,6 @@ class FantaMatchCenterParser {
         }
     }
 
-    fun parsePLRounds(): String {
-        val klaxon = Klaxon()
-
-        return klaxon.toJsonString(parseRounds())
-    }
-
-    fun parseRounds(): List<MatchLink> {
-        val roundsURL = "https://www.fotmob.com/leagues/47/matches"
-
-        Jsoup.connect(roundsURL).get().run {
-            return select("div." + "css-1rxdjrc-TLMatchCSS-applyHover").map { el -> MatchLink("", "", el.select("a[class~=MatchCSS]").attr("href")) }
-
-        }
-    }
 
     fun parseRounds(matches: List<Pair<String, String>>): List<MatchLink> {
         val roundsURL = "https://www.fotmob.com/leagues/47/matches"

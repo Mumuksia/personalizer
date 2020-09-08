@@ -1,0 +1,54 @@
+{
+  "matches": [
+    {
+      "away": "brighton & hove albion",
+      "home": "arsenal",
+      "pageUrl": "/livescores/3411719/matchfacts/arsenal-vs-brighton-&-hove-albion"
+    },
+    {
+      "away": "chelsea",
+      "home": "aston villa",
+      "pageUrl": "/livescores/3411720/matchfacts/aston-villa-vs-chelsea"
+    },
+    {
+      "away": "newcastle united",
+      "home": "fulham",
+      "pageUrl": "/livescores/3411721/matchfacts/fulham-vs-newcastle-united"
+    },
+    {
+      "away": "west bromwich albion",
+      "home": "leeds united",
+      "pageUrl": "/livescores/3411722/matchfacts/leeds-united-vs-west-bromwich-albion"
+    },
+    {
+      "away": "tottenham hotspur",
+      "home": "leicester city",
+      "pageUrl": "/livescores/3411723/matchfacts/leicester-city-vs-tottenham-hotspur"
+    },
+    {
+      "away": "crystal palace",
+      "home": "liverpool",
+      "pageUrl": "/livescores/3411724/matchfacts/liverpool-vs-crystal-palace"
+    },
+    {
+      "away": "everton",
+      "home": "manchester city",
+      "pageUrl": "/livescores/3411725/matchfacts/manchester-city-vs-everton"
+    },
+    {
+      "away": "burnley",
+      "home": "sheffield united",
+      "pageUrl": "/livescores/3411726/matchfacts/sheffield-united-vs-burnley"
+    },
+    {
+      "away": "southampton",
+      "home": "west ham united",
+      "pageUrl": "/livescores/3411727/matchfacts/west-ham-united-vs-southampton"
+    },
+    {
+      "away": "manchester united",
+      "home": "wolverhampton wanderers",
+      "pageUrl": "/livescores/3411728/matchfacts/wolverhampton-wanderers-vs-manchester-united"
+    }
+  ]
+}
