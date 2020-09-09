@@ -51,6 +51,16 @@ class MantraFutMobService {
         return ""
     }
 
+    fun createAllFacts(): String {
+        for (i in 1..38) {
+            println("getting data for round $i")
+            File("fact$i.json").writeText(getMatchFactsForRound(i))
+            Thread.sleep(5000)
+        }
+
+        return ""
+    }
+
     fun getJsonStringForRound(round: Int): String {
         when (round) {
             1 -> return Matches.pl1

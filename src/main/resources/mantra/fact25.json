@@ -1,0 +1,814 @@
+[
+  {
+    "away": "Chelsea",
+    "facts": {
+      "events": [
+        {
+          "minute": "46",
+          "playerName": "Antonio Rüdiger",
+          "secondPlayerName": "Mason Mount",
+          "type": "goal"
+        },
+        {
+          "minute": "54",
+          "playerName": "Harvey Barnes",
+          "secondPlayerName": "Youri Tielemans",
+          "type": "goal"
+        },
+        {
+          "minute": "56",
+          "playerName": "Jorginho",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "61",
+          "playerName": "James Maddison",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "64",
+          "playerName": "Ben Chilwell",
+          "secondPlayerName": "Youri Tielemans",
+          "type": "goal"
+        },
+        {
+          "minute": "71",
+          "playerName": "Antonio Rüdiger",
+          "secondPlayerName": "Mason Mount",
+          "type": "goal"
+        },
+        {
+          "minute": "74",
+          "playerName": "Willian",
+          "secondPlayerName": "Pedro Rodriguez",
+          "type": "substitution"
+        },
+        {
+          "minute": "74",
+          "playerName": "Mateo Kovacic",
+          "secondPlayerName": "Jorginho",
+          "type": "substitution"
+        },
+        {
+          "minute": "76",
+          "playerName": "Mateo Kovacic",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "80",
+          "playerName": "Kelechi Iheanacho",
+          "secondPlayerName": "Jamie Vardy",
+          "type": "substitution"
+        },
+        {
+          "minute": "80",
+          "playerName": "Dennis Praet",
+          "secondPlayerName": "Youri Tielemans",
+          "type": "substitution"
+        },
+        {
+          "minute": "83",
+          "playerName": "Ross Barkley",
+          "secondPlayerName": "Tammy Abraham",
+          "type": "substitution"
+        },
+        {
+          "minute": "90",
+          "playerName": "Jonny Evans",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        }
+      ]
+    },
+    "home": "Leicester City"
+  },
+  {
+    "away": "Aston Villa",
+    "facts": {
+      "events": [
+        {
+          "minute": "18",
+          "playerName": "Jefferson Lerma",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "36",
+          "playerName": "Tyrone Mings",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "37",
+          "playerName": "Philip Billing",
+          "secondPlayerName": "Dan Gosling",
+          "type": "goal"
+        },
+        {
+          "minute": "43",
+          "playerName": "Douglas Luiz",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "44",
+          "playerName": "Nathan Aké",
+          "secondPlayerName": "",
+          "type": "goal"
+        },
+        {
+          "minute": "46",
+          "playerName": "Björn Engels",
+          "secondPlayerName": "Ezri Konsa",
+          "type": "substitution"
+        },
+        {
+          "minute": "51",
+          "playerName": "Jefferson Lerma",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "58",
+          "playerName": "Keinan Davis",
+          "secondPlayerName": "Anwar El-Ghazi",
+          "type": "substitution"
+        },
+        {
+          "minute": "65",
+          "playerName": "Callum Wilson",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "70",
+          "playerName": "Mbwana Samatta",
+          "secondPlayerName": "",
+          "type": "goal"
+        },
+        {
+          "minute": "80",
+          "playerName": "Trezeguet",
+          "secondPlayerName": "Marvelous Nakamba",
+          "type": "substitution"
+        },
+        {
+          "minute": "90",
+          "playerName": "Kortney Hause",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        }
+      ]
+    },
+    "home": "AFC Bournemouth"
+  },
+  {
+    "away": "Sheffield United",
+    "facts": {
+      "events": [
+        {
+          "minute": "18",
+          "playerName": "George Baldock",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "24",
+          "playerName": "James Tomkins",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "58",
+          "playerName": "Vicente Guaita",
+          "secondPlayerName": "",
+          "type": "Own Goal"
+        },
+        {
+          "minute": "64",
+          "playerName": "Lys Mousset",
+          "secondPlayerName": "Billy Sharp",
+          "type": "substitution"
+        },
+        {
+          "minute": "67",
+          "playerName": "Luka Milivojevic",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "68",
+          "playerName": "John Fleck",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "68",
+          "playerName": "John Lundstram",
+          "secondPlayerName": "Sander Berge",
+          "type": "substitution"
+        },
+        {
+          "minute": "74",
+          "playerName": "Joel Ward",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "77",
+          "playerName": "Andros Townsend",
+          "secondPlayerName": "Christian Benteke",
+          "type": "substitution"
+        },
+        {
+          "minute": "80",
+          "playerName": "Max Meyer",
+          "secondPlayerName": "James McCarthy",
+          "type": "substitution"
+        },
+        {
+          "minute": "85",
+          "playerName": "Cheikhou Kouyaté",
+          "secondPlayerName": "James McArthur",
+          "type": "substitution"
+        },
+        {
+          "minute": "90",
+          "playerName": "Ben Osborn",
+          "secondPlayerName": "Oliver McBurnie",
+          "type": "substitution"
+        }
+      ]
+    },
+    "home": "Crystal Palace"
+  },
+  {
+    "away": "Southampton",
+    "facts": {
+      "events": [
+        {
+          "minute": "47",
+          "playerName": "Alex Oxlade-Chamberlain",
+          "secondPlayerName": "Roberto Firmino",
+          "type": "goal"
+        },
+        {
+          "minute": "60",
+          "playerName": "Jordan Henderson",
+          "secondPlayerName": "Roberto Firmino",
+          "type": "goal"
+        },
+        {
+          "minute": "65",
+          "playerName": "James Ward-Prowse",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "70",
+          "playerName": "Michael Obafemi",
+          "secondPlayerName": "Shane Long",
+          "type": "substitution"
+        },
+        {
+          "minute": "70",
+          "playerName": "Che Adams",
+          "secondPlayerName": "Danny Ings",
+          "type": "substitution"
+        },
+        {
+          "minute": "72",
+          "playerName": "Mohamed Salah",
+          "secondPlayerName": "Jordan Henderson",
+          "type": "goal"
+        },
+        {
+          "minute": "73",
+          "playerName": "Naby Keita",
+          "secondPlayerName": "Alex Oxlade-Chamberlain",
+          "type": "substitution"
+        },
+        {
+          "minute": "81",
+          "playerName": "Takumi Minamino",
+          "secondPlayerName": "Georginio Wijnaldum",
+          "type": "substitution"
+        },
+        {
+          "minute": "82",
+          "playerName": "Sofiane Boufal",
+          "secondPlayerName": "Moussa Djenepo",
+          "type": "substitution"
+        },
+        {
+          "minute": "88",
+          "playerName": "Adam Lallana",
+          "secondPlayerName": "Jordan Henderson",
+          "type": "substitution"
+        },
+        {
+          "minute": "89",
+          "playerName": "Jack Stephens",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "90",
+          "playerName": "Mohamed Salah",
+          "secondPlayerName": "Roberto Firmino",
+          "type": "goal"
+        }
+      ]
+    },
+    "home": "Liverpool"
+  },
+  {
+    "away": "Norwich City",
+    "facts": {
+      "events": [
+        {
+          "minute": "44",
+          "playerName": "Todd Cantwell",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "52",
+          "playerName": "DeAndre Yedlin",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "54",
+          "playerName": "Valentino Lazaro",
+          "secondPlayerName": "DeAndre Yedlin",
+          "type": "substitution"
+        },
+        {
+          "minute": "57",
+          "playerName": "Sean Longstaff",
+          "secondPlayerName": "Isaac Hayden",
+          "type": "substitution"
+        },
+        {
+          "minute": "67",
+          "playerName": "Emiliano Buendia",
+          "secondPlayerName": "Todd Cantwell",
+          "type": "substitution"
+        },
+        {
+          "minute": "79",
+          "playerName": "Danny Rose",
+          "secondPlayerName": "Allan Saint-Maximin",
+          "type": "substitution"
+        },
+        {
+          "minute": "80",
+          "playerName": "Nabil Bentaleb",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "86",
+          "playerName": "Onel Hernández",
+          "secondPlayerName": "Alexander Tettey",
+          "type": "substitution"
+        },
+        {
+          "minute": "89",
+          "playerName": "Mario Vrancic",
+          "secondPlayerName": "Lukas Rupp",
+          "type": "substitution"
+        }
+      ]
+    },
+    "home": "Newcastle United"
+  },
+  {
+    "away": "Everton",
+    "facts": {
+      "events": [
+        {
+          "minute": "10",
+          "playerName": "Adam Masina",
+          "secondPlayerName": "Gerard Deulofeu",
+          "type": "goal"
+        },
+        {
+          "minute": "42",
+          "playerName": "Roberto Pereyra",
+          "secondPlayerName": "Troy Deeney",
+          "type": "goal"
+        },
+        {
+          "minute": "45",
+          "playerName": "Yerry Mina",
+          "secondPlayerName": "Gylfi Sigurdsson",
+          "type": "goal"
+        },
+        {
+          "minute": "45",
+          "playerName": "Yerry Mina",
+          "secondPlayerName": "Gylfi Sigurdsson",
+          "type": "goal"
+        },
+        {
+          "minute": "57",
+          "playerName": "Danny Welbeck",
+          "secondPlayerName": "Nathaniel Chalobah",
+          "type": "substitution"
+        },
+        {
+          "minute": "58",
+          "playerName": "Fabian Delph",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "65",
+          "playerName": "Moise Kean",
+          "secondPlayerName": "Alex Iwobi",
+          "type": "substitution"
+        },
+        {
+          "minute": "67",
+          "playerName": "Morgan Schneiderlin",
+          "secondPlayerName": "Gylfi Sigurdsson",
+          "type": "substitution"
+        },
+        {
+          "minute": "68",
+          "playerName": "Adam Masina",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "71",
+          "playerName": "Fabian Delph",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "73",
+          "playerName": "Michael Keane",
+          "secondPlayerName": "Dominic Calvert-Lewin",
+          "type": "substitution"
+        },
+        {
+          "minute": "75",
+          "playerName": "Isaac Success",
+          "secondPlayerName": "Roberto Pereyra",
+          "type": "substitution"
+        },
+        {
+          "minute": "78",
+          "playerName": "Isaac Success",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "82",
+          "playerName": "Ignacio Pussetto",
+          "secondPlayerName": "Gerard Deulofeu",
+          "type": "substitution"
+        },
+        {
+          "minute": "84",
+          "playerName": "Yerry Mina",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "86",
+          "playerName": "Mason Holgate",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "90",
+          "playerName": "Theo Walcott",
+          "secondPlayerName": "Moise Kean",
+          "type": "goal"
+        }
+      ]
+    },
+    "home": "Watford"
+  },
+  {
+    "away": "Brighton & Hove Albion",
+    "facts": {
+      "events": [
+        {
+          "minute": "30",
+          "playerName": "Issa Diop",
+          "secondPlayerName": "Robert Snodgrass",
+          "type": "goal"
+        },
+        {
+          "minute": "45",
+          "playerName": "Robert Snodgrass",
+          "secondPlayerName": "",
+          "type": "goal"
+        },
+        {
+          "minute": "47",
+          "playerName": "Angelo Ogbonna",
+          "secondPlayerName": "",
+          "type": "Own Goal"
+        },
+        {
+          "minute": "52",
+          "playerName": "Dale Stephens",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "57",
+          "playerName": "Robert Snodgrass",
+          "secondPlayerName": "",
+          "type": "goal"
+        },
+        {
+          "minute": "72",
+          "playerName": "Solly March",
+          "secondPlayerName": "Aaron Mooy",
+          "type": "substitution"
+        },
+        {
+          "minute": "72",
+          "playerName": "Ezequiel Schelotto",
+          "secondPlayerName": "Martin Montoya",
+          "type": "substitution"
+        },
+        {
+          "minute": "74",
+          "playerName": "Arthur Masuaku",
+          "secondPlayerName": "Michail Antonio",
+          "type": "substitution"
+        },
+        {
+          "minute": "75",
+          "playerName": "Pascal Gross",
+          "secondPlayerName": "",
+          "type": "goal"
+        },
+        {
+          "minute": "79",
+          "playerName": "Glenn Murray",
+          "secondPlayerName": "Davy Pröpper",
+          "type": "goal"
+        },
+        {
+          "minute": "85",
+          "playerName": "Manuel Lanzini",
+          "secondPlayerName": "Robert Snodgrass",
+          "type": "substitution"
+        },
+        {
+          "minute": "85",
+          "playerName": "Pablo Fornals",
+          "secondPlayerName": "Tomas Soucek",
+          "type": "substitution"
+        },
+        {
+          "minute": "90",
+          "playerName": "Angelo Ogbonna",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        }
+      ]
+    },
+    "home": "West Ham United"
+  },
+  {
+    "away": "Wolverhampton Wanderers",
+    "facts": {
+      "events": [
+        {
+          "minute": "55",
+          "playerName": "Bruno Fernandes",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "57",
+          "playerName": "Ruben Neves",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "70",
+          "playerName": "Pedro Neto",
+          "secondPlayerName": "Diogo Jota",
+          "type": "substitution"
+        },
+        {
+          "minute": "71",
+          "playerName": "Joao Moutinho",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "72",
+          "playerName": "Mason Greenwood",
+          "secondPlayerName": "Andreas Pereira",
+          "type": "substitution"
+        },
+        {
+          "minute": "76",
+          "playerName": "Daniel Podence",
+          "secondPlayerName": "Adama Traoré",
+          "type": "substitution"
+        },
+        {
+          "minute": "79",
+          "playerName": "Victor Nilsson Lindelöf",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "84",
+          "playerName": "Luke Shaw",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "88",
+          "playerName": "Diogo Dalot",
+          "secondPlayerName": "Daniel James",
+          "type": "substitution"
+        },
+        {
+          "minute": "88",
+          "playerName": "Jesse Lingard",
+          "secondPlayerName": "Juan Mata",
+          "type": "substitution"
+        },
+        {
+          "minute": "90",
+          "playerName": "Leander Dendoncker",
+          "secondPlayerName": "Raul Jiménez",
+          "type": "substitution"
+        }
+      ]
+    },
+    "home": "Manchester United"
+  },
+  {
+    "away": "Arsenal",
+    "facts": {
+      "events": [
+        {
+          "minute": "44",
+          "playerName": "Mesut Özil",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "46",
+          "playerName": "Lucas Torreira",
+          "secondPlayerName": "Bukayo Saka",
+          "type": "substitution"
+        },
+        {
+          "minute": "55",
+          "playerName": "Granit Xhaka",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "57",
+          "playerName": "Lucas Torreira",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "63",
+          "playerName": "Joseph Willock",
+          "secondPlayerName": "Mesut Özil",
+          "type": "substitution"
+        },
+        {
+          "minute": "82",
+          "playerName": "James Tarkowski",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "89",
+          "playerName": "Edward Nketiah",
+          "secondPlayerName": "Alexandre Lacazette",
+          "type": "substitution"
+        }
+      ]
+    },
+    "home": "Burnley"
+  },
+  {
+    "away": "Manchester City",
+    "facts": {
+      "events": [
+        {
+          "minute": "12",
+          "playerName": "Raheem Sterling",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "33",
+          "playerName": "Kyle Walker",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "",
+          "playerName": "",
+          "secondPlayerName": "",
+          "type": ""
+        },
+        {
+          "minute": "42",
+          "playerName": "Oleksandr Zinchenko",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "42",
+          "playerName": "Toby Alderweireld",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "60",
+          "playerName": "Oleksandr Zinchenko",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "63",
+          "playerName": "Steven Bergwijn",
+          "secondPlayerName": "Lucas Moura",
+          "type": "goal"
+        },
+        {
+          "minute": "64",
+          "playerName": "Joao Cancelo",
+          "secondPlayerName": "Sergio Agüero",
+          "type": "substitution"
+        },
+        {
+          "minute": "66",
+          "playerName": "Giovani Lo Celso",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        },
+        {
+          "minute": "70",
+          "playerName": "Tanguy Ndombélé",
+          "secondPlayerName": "Dele Alli",
+          "type": "substitution"
+        },
+        {
+          "minute": "70",
+          "playerName": "Erik Lamela",
+          "secondPlayerName": "Steven Bergwijn",
+          "type": "substitution"
+        },
+        {
+          "minute": "71",
+          "playerName": "Heung-Min Son",
+          "secondPlayerName": "Tanguy Ndombélé",
+          "type": "goal"
+        },
+        {
+          "minute": "72",
+          "playerName": "Gabriel Jesus",
+          "secondPlayerName": "Riyad Mahrez",
+          "type": "substitution"
+        },
+        {
+          "minute": "84",
+          "playerName": "Bernardo Silva",
+          "secondPlayerName": "Raheem Sterling",
+          "type": "substitution"
+        },
+        {
+          "minute": "84",
+          "playerName": "Eric Dier",
+          "secondPlayerName": "Lucas Moura",
+          "type": "substitution"
+        },
+        {
+          "minute": "90",
+          "playerName": "Rodri",
+          "secondPlayerName": "",
+          "type": "yellowCard"
+        }
+      ]
+    },
+    "home": "Tottenham Hotspur"
+  }
+]

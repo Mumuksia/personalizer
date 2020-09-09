@@ -32,6 +32,14 @@ class MantraController {
     fun getAllRankings(): String =
             mantraFutMob.createAllRankings()
 
+    @GetMapping("/scrapper/mantra/facts/all")
+    fun getAllFacts(): String =
+            mantraFutMob.createAllFacts()
+
+    @GetMapping("/scrapper/mantra/facts/total")
+    fun getTotalFacts(): String =
+            ranksService.getTotalFacts().toString()
+
     @GetMapping("/scrapper/mantra/rounds/all/avg")
     fun getAvgRanking(): String =
             ranksService.getAvgRanking()
