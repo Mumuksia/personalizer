@@ -39,7 +39,7 @@ class FantaMatchCenterParser {
         var site = url
         val topTeam = ("$home vs $away").toLowerCase().replace(" ", "-")
         if (!url.startsWith("https")) //add https
-            site = "https://$url/$topTeam"
+            site = "https://$url"
 
         Jsoup.connect(site).get().run {
             //div id match-centre -> div class player
@@ -51,7 +51,7 @@ class FantaMatchCenterParser {
         var site = url
         val topTeam = ("$home vs $away").toLowerCase().replace(" ", "-")
         if (!url.startsWith("https")) //add https
-            site = "https://$url/$topTeam"
+            site = "https://$url"
 
         Jsoup.connect(site).get().run {
             return parseMatchElements(select("button." + "css-lw53vx-PlayerContainer-applyHover-layout")
