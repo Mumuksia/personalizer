@@ -49,14 +49,17 @@ class FantaMatchCenterParser {
 
     fun parseMatchByURL(url: String, home: String, away: String): List<PlayerStat> {
         var site = url
-        val topTeam = ("$home vs $away").toLowerCase().replace(" ", "-")
         if (!url.startsWith("https")) //add https
             site = "https://$url"
-
-        Jsoup.connect(site).get().run {
-            return parseMatchElements(select("button." + "css-13skzja-PlayerContainer-applyHover-layout")
-            )
+        try {
+            Jsoup.connect(site).get().run {
+                return parseMatchElements(select("button." + "css-13skzja-PlayerContainer-applyHover-layout")
+                )
+            }
+        } catch (e: Exception){
+            return emptyList()
         }
+
     }
 
 
