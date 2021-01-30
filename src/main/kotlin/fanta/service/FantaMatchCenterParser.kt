@@ -19,7 +19,7 @@ class FantaMatchCenterParser {
             site = "https://$url"
 
         Jsoup.connect(site).get().run {
-            return parseMatchElements(select("button." + "css-lw53vx-PlayerContainer-applyHover-layout")
+            return parseMatchElements(select("button." + "css-1ldwole-PlayerContainer-applyHover-layout")
             )
         }
     }
@@ -53,7 +53,7 @@ class FantaMatchCenterParser {
             site = "https://$url"
         try {
             Jsoup.connect(site).get().run {
-                return parseMatchElements(select("button." + "css-13skzja-PlayerContainer-applyHover-layout")
+                return parseMatchElements(select("button." + "css-1ldwole-PlayerContainer-applyHover-layout")
                 )
             }
         } catch (e: Exception){
